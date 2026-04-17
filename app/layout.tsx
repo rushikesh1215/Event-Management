@@ -3,8 +3,6 @@ import { NeonAuthUIProvider, UserButton } from "@neondatabase/auth/react";
 import { authClient } from "@/lib/auth/client";
 import Link from "next/link";
 import "./globals.css"
-import { getSession } from "@/lib/auth/server";
-import { redirect } from "next/navigation";
 import "dotenv/config"
 export const metadata: Metadata = {
   title: "Create Next App",
